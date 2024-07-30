@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div>
+  <div>
+    <img src="https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-Next_._JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-OpenAI-black?style=for-the-badge&logoColor=white&logo=openai&color=06B6D4" alt="openai" />
 
-## Getting Started
+  </div>
+</div>
 
-First, run the development server:
+# 🚀 Disney Channel Clone - Inspired by Sonny Sangha (PAPAFAM)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A Disney Channel Clone.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is built with the following tech:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Next.js 14
 
-## Learn More
+[Next.js 14](https://nextjs.org/) is the latest release of the popular React framework that enables functionality such as server-side rendering and generating static websites.
 
-To learn more about Next.js, take a look at the following resources:
+### Server Actions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Server Actions in Next.js allow developers to write server-side logic that can be directly called from the client. This simplifies building interactive applications by reducing the need for additional serverless functions or configuring backend routes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### OpenAI
 
-## Deploy on Vercel
+[OpenAI](https://openai.com) is a powerful AI platform that provides a range of tools for developers to build AI-powered applications. In this project, we use OpenAI's GPT-4o model to summarize and provide you the best recommendation movies.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔋Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+List down the features of your project here. For example:
+
+- Dynamic pages and API routes with Next.js Server Actions
+- Beautiful UI components built with TailwindCSS
+- dynamic summaries and recommendations using OpenAI's GPT-4o model
